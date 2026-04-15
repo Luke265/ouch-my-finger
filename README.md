@@ -1,4 +1,4 @@
-# Ouch! My finger!
+# Ouch!
 
 You were using PostGraphile, but ouch! Something went wrong!
 
@@ -11,13 +11,13 @@ possible &mdash; before filing an issue linking to it.
 
 Use Node 22.6 or higher (`nvm use 24`) and install dependencies:
 
-```
+```sh
 yarn
 ```
 
 Run PostGraphile CLI and pass the connection string and schemas:
 
-```
+```sh
 yarn postgraphile -c postgres:///my_db -s app_public
 ```
 
